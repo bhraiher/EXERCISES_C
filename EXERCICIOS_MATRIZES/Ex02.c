@@ -1,13 +1,16 @@
-/*Criar 2 vetores de 5 posições cada, e colocar a soma destas posições em um terceiro vetor. */
 #include<stdio.h>
 #include<stdlib.h>
+/*PRODUCAO DO CODIGO: 31/03/2020 DESENVOLVEDOR: BRUNO HENRIQUE RAIHER (GITHUB: BHRAIHER)
+  MANUTENCAO DO CODIGO: --/--/--*/
+
+/*Criar 2 vetores de 5 posiï¿½ï¿½es cada, e colocar a soma destas posiï¿½ï¿½es em um terceiro vetor. */
 
 //CODIGO DE BRUNO HENRIQUE RAIHER, GitHub: @bhraiher
 int main() {
     int vet1[5], vet2[5], vetResult[5];
     int i;
 
-    //Atribuir a posição ao vetor.
+    //Atribuir a posiï¿½ï¿½o ao vetor.
     for(i = 0; i < 5; i++){
         vet1[i] = i;
     }
@@ -52,9 +55,6 @@ int main() {
     printf("]\n");
 
 
-
-
-
-
+  system("pause");
 
 }
